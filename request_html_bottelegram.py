@@ -86,7 +86,7 @@ def formatear_datos(respuesta_txt):
             
             path = obtener_filepath(i["message"]["photo"][3]["file_id"])
             
-            obtener_foto(i["message"]["from"]["first_name"],str(i["update_id"]),path)
+            obtener_foto(str(i["update_id"]),path)
        
         elif "text" in i["message"]:
             
@@ -121,7 +121,7 @@ def formatear_datos(respuesta_txt):
 #
 #
 #
-def obtener_foto(NOMBRE,update_id,path):
+def obtener_foto(update_id,path):
     #METODO de Telegram(getUpdates,MessageId,etc)
     ##FILE_ID = 'AgACAgEAAxkBAAMhYzQ3UDavc78uW27mxmrPppVq-3kAAp2qMRttjKBFSsTwy3pdZv4BAAMCAANzAAMqBA'
     MODO = path
@@ -130,7 +130,7 @@ def obtener_foto(NOMBRE,update_id,path):
 
     response = requests.get(url).content
 
-    with open("C:\\Users\\computos2\\Desktop\\FOA{0}{1}{2}.jpg".format(NOMBRE,update_id,FECHA_ACTUAL),"wb") as handler:
+    with open("C:\\Users\\computos2\\Desktop\\FOA{0}.jpg".format(update_id),"wb") as handler:
         handler.write(response)
 
 ##Eliminamos saltos de linea
