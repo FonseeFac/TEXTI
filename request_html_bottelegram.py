@@ -80,8 +80,8 @@ def formatear_datos(respuesta_txt):
 
         if "photo" in i["message"] :
             texto = eliminar_saltos_linea(str(i["message"]["caption"]))
-            stream_datos_procesados = (str(i["message"]["from"]["first_name"])+ " " + str(i["update_id"])+
-             " "+ texto +" "+ "\n")
+            stream_datos_procesados = (i["message"]["from"]["first_name"]+"\n"+ str(i["update_id"])
+                                      +"\n"+ texto +"\n\n")
             stream_archivo.write("{0}".format(stream_datos_procesados))
             
             path = obtener_filepath(i["message"]["photo"][3]["file_id"])
@@ -91,16 +91,16 @@ def formatear_datos(respuesta_txt):
         elif "text" in i["message"]:
             
             texto = eliminar_saltos_linea(str(i["message"]["text"]))
-            stream_datos_procesados = (str(i["message"]["from"]["first_name"])+ " " +
-             str(i["update_id"])+" "+ texto + "\n")
+            stream_datos_procesados = (str(i["message"]["from"]["first_name"])+"\n"  
+                                     + str(i["update_id"])+"\n"+ texto + "\n\n")
             
             stream_archivo.write("{0}".format(stream_datos_procesados))
         
         elif "document" in i["message"]:
             
             texto = str(i["message"]["caption"])
-            stream_datos_procesados = (str(i["message"]["from"]["first_name"])+ " " +
-            str(i["update_id"])+" "+ texto + "\n")
+            stream_datos_procesados = (str(i["message"]["from"]["first_name"])+ "\n" +
+             str(i["update_id"]) + "\n" + texto + "\n\n")
             
             stream_archivo.write("{0}".format(stream_datos_procesados))
 
@@ -138,8 +138,9 @@ def obtener_foto(update_id,path):
 #
 #
 def eliminar_saltos_linea(string):
-    salida = ""
-    salida = string.replace('\n'," ")
+    salida1 = ""
+    salida1 = string.replace('\n'," ")
+    salida = salida1.replace('/foa','')
     return salida
 
 
