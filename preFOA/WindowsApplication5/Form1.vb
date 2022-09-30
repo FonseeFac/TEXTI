@@ -3,12 +3,20 @@ Imports System
 
 Public Class FUA
     Dim path_Imagen, update_id As String
+    Dim FECHA_ACTUAL As String
+    Dim state As Boolean
 
 
 
     Private Sub FUA_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        load_dgv_desde_archivo()
-        existe_imagen()
+        'FECHA_ACTUAL = Str(Date.Now.Year) + "-"
+        'FECHA_ACTUAL = Str(Date.Now.Month) + "-"
+        'FECHA_ACTUAL = Str(Date.Now.Year)
+
+        'If state Then
+        '    load_dgv_desde_archivo()
+        '    existe_imagen()
+        'End If
     End Sub
 
     Private Sub load_dgv_desde_archivo()
@@ -17,8 +25,8 @@ Public Class FUA
         Dim legajo, observacion As String
 
         path = "C:\Users\computos2\Desktop\"
-
-        Dim leer As New StreamReader(path + "FOA2022-09-29.txt")
+        path = path + "FOA" + FECHA_ACTUAL + ".txt"
+        Dim leer As New StreamReader(path)
         Dim rownumb As Integer = 0
 
         While leer.Peek() <> -1
@@ -60,6 +68,38 @@ Public Class FUA
             ImagenArchivo.ImageLocation = path_Imagen
             ImagenArchivo.SizeMode = PictureBoxSizeMode.StretchImage
             ImagenArchivo.Load()
+        Else
+            ImagenArchivo.ImageLocation = "C:\Users\computos2\Documents\RepositorioGit\preFOA\sin_archivo.jpg"
+            ImagenArchivo.SizeMode = PictureBoxSizeMode.StretchImage
+            ImagenArchivo.Load()
         End If
+
+    End Sub
+
+    Private Sub cargarObs()
+        Obs.Show()
+    End Sub
+
+    Private Sub exec_script()
+        state = Shell("python C:\Users\computos2\Documents\RepositorioGit\preFOA\request_html_bottelegram.py")
+    End Sub
+
+    Private Sub Ejecutar_Click(sender As Object, e As EventArgs) Handles Ejecutar.Click
+        state = False
+        exec_script()
+        dgvFOA.Rows.Clear()
+        If state = True Then
+            FECHA_ACTUAL = Format(Now, "yyyy-MM-dd")
+
+
+            If state Then
+                load_dgv_desde_archivo()
+                existe_imagen()
+            Else
+                MsgBox("No cargo los formularios correctamente")
+            End If
+
+        End If
+        state = False
     End Sub
 End Class
