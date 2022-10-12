@@ -28,7 +28,6 @@ Partial Class FUA
         Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Observaciones = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Estado = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Button1 = New System.Windows.Forms.Button()
         Me.Ejecutar = New System.Windows.Forms.Button()
         Me.Limpiar = New System.Windows.Forms.Button()
         Me.Obs = New System.Windows.Forms.GroupBox()
@@ -65,6 +64,7 @@ Partial Class FUA
         '
         Me.ID.HeaderText = "ID"
         Me.ID.Name = "ID"
+        Me.ID.ReadOnly = True
         Me.ID.Visible = False
         '
         'Column1
@@ -78,21 +78,13 @@ Partial Class FUA
         Me.Observaciones.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
         Me.Observaciones.HeaderText = "Observaciones"
         Me.Observaciones.Name = "Observaciones"
+        Me.Observaciones.ReadOnly = True
         '
         'Estado
         '
         Me.Estado.HeaderText = "Estado"
         Me.Estado.Name = "Estado"
         Me.Estado.Width = 90
-        '
-        'Button1
-        '
-        Me.Button1.Location = New System.Drawing.Point(1006, 12)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(122, 50)
-        Me.Button1.TabIndex = 2
-        Me.Button1.Text = "Button1"
-        Me.Button1.UseVisualStyleBackColor = True
         '
         'Ejecutar
         '
@@ -122,7 +114,7 @@ Partial Class FUA
         Me.Obs.Size = New System.Drawing.Size(642, 265)
         Me.Obs.TabIndex = 5
         Me.Obs.TabStop = False
-        Me.Obs.Text = "GroupBox1"
+        Me.Obs.Text = "Observaciones"
         '
         'FUA
         '
@@ -132,7 +124,6 @@ Partial Class FUA
         Me.Controls.Add(Me.Obs)
         Me.Controls.Add(Me.Limpiar)
         Me.Controls.Add(Me.Ejecutar)
-        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.dgvFOA)
         Me.Controls.Add(Me.ImagenArchivo)
         Me.Name = "FUA"
@@ -144,13 +135,12 @@ Partial Class FUA
     End Sub
     Friend WithEvents ImagenArchivo As System.Windows.Forms.PictureBox
     Friend WithEvents dgvFOA As System.Windows.Forms.DataGridView
+    Friend WithEvents Ejecutar As System.Windows.Forms.Button
+    Friend WithEvents Limpiar As System.Windows.Forms.Button
+    Friend WithEvents Obs As System.Windows.Forms.GroupBox
     Friend WithEvents ID As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents Column1 As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents Observaciones As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents Estado As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents Button1 As System.Windows.Forms.Button
-    Friend WithEvents Ejecutar As System.Windows.Forms.Button
-    Friend WithEvents Limpiar As System.Windows.Forms.Button
-    Friend WithEvents Obs As System.Windows.Forms.GroupBox
 
 End Class

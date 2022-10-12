@@ -9,35 +9,42 @@ Public Class FUA
 
 
     Private Sub FUA_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        'FECHA_ACTUAL = Str(Date.Now.Year) + "-"
-        'FECHA_ACTUAL = Str(Date.Now.Month) + "-"
-        'FECHA_ACTUAL = Str(Date.Now.Year)
-
-        'If state Then
-        '    load_dgv_desde_archivo()
-        '    existe_imagen()
-        'End If
+        FECHA_ACTUAL = Str(Date.Now.Year) + "-"
+        FECHA_ACTUAL = Str(Date.Now.Month) + "-"
+        FECHA_ACTUAL = Str(Date.Now.Year)
+        Me.Text = "FUA"
+        Dim frl_list As New ContextMenuStrip
+        dgvFOA.Columns.Add(frl_list)
+        If state Then
+            load_dgv_desde_archivo()
+            existe_imagen()
+        End If
     End Sub
 
     Private Sub load_dgv_desde_archivo()
 
         Dim path As String
         Dim legajo, observacion As String
+        Try
+            path = ".\"
+            path = path + "FOA" + FECHA_ACTUAL + ".txt"
+            Dim leer As New StreamReader(path)
+            Dim rownumb As Integer = 0
 
-        path = "C:\Users\computos2\Desktop\"
-        path = path + "FOA" + FECHA_ACTUAL + ".txt"
-        Dim leer As New StreamReader(path)
-        Dim rownumb As Integer = 0
+            While leer.Peek() <> -1
+                legajo = leer.ReadLine()
+                update_id = leer.ReadLine()
+                observacion = leer.ReadLine()
+                dgvFOA.Rows.Add(update_id, legajo, observacion)
+                leer.ReadLine()
+            End While
 
-        While leer.Peek() <> -1
-            legajo = leer.ReadLine()
-            update_id = leer.ReadLine()
-            observacion = leer.ReadLine()
-            dgvFOA.Rows.Add(update_id, legajo, observacion)
-            leer.ReadLine()
-        End While
+            leer.Close()
+        Catch ex As Exception
+            MsgBox("No se encuentra la ruta", 0, "FUA ERROR")
 
-        leer.Close()
+        End Try
+        
 
 
 
@@ -46,7 +53,7 @@ Public Class FUA
 
     Private Function existe_imagen() As Boolean
         Dim Path As String
-        Path = "C:\Users\computos2\Desktop\FOA" + update_id + ".jpg"
+        Path = ".\FOA" + update_id + ".jpg"
         If File.Exists(Path) Then
             path_Imagen = Path
             Return True
@@ -63,13 +70,12 @@ Public Class FUA
         id = dgvFOA.Rows(e.RowIndex).Cells("ID").Value
         update_id = id
 
-
         If existe_imagen() Then
             ImagenArchivo.ImageLocation = path_Imagen
             ImagenArchivo.SizeMode = PictureBoxSizeMode.StretchImage
             ImagenArchivo.Load()
         Else
-            ImagenArchivo.ImageLocation = "C:\Users\computos2\Documents\RepositorioGit\preFOA\sin_archivo.jpg"
+            ImagenArchivo.ImageLocation = ".\sin_archivo.jpg"
             ImagenArchivo.SizeMode = PictureBoxSizeMode.StretchImage
             ImagenArchivo.Load()
         End If
@@ -81,7 +87,7 @@ Public Class FUA
     End Sub
 
     Private Sub exec_script()
-        state = Shell("python C:\Users\computos2\Documents\RepositorioGit\preFOA\request_html_bottelegram.py")
+        state = Shell("python .\request_html_bottelegram.py")
     End Sub
 
     Private Sub Ejecutar_Click(sender As Object, e As EventArgs) Handles Ejecutar.Click
@@ -102,4 +108,23 @@ Public Class FUA
         End If
         state = False
     End Sub
+
+    Private Sub dgvfoa_keydown(sender As Object, e As KeyEventArgs) Handles dgvFOA.KeyDown, dgvFOA.KeyUp
+        Dim id As String
+
+        id = dgvfoa.currentrow.cells("id").value
+        update_id = id
+
+        If existe_imagen() Then
+            imagenarchivo.imagelocation = path_imagen
+            imagenarchivo.sizemode = pictureboxsizemode.stretchimage
+            imagenarchivo.load()
+        Else
+            imagenarchivo.imagelocation = ".\sin_archivo.jpg"
+            imagenarchivo.sizemode = pictureboxsizemode.stretchimage
+            imagenarchivo.load()
+        End If
+    End Sub
+
+    
 End Class
