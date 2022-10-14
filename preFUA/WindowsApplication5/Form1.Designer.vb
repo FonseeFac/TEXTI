@@ -24,13 +24,12 @@ Partial Class FUA
     Private Sub InitializeComponent()
         Me.ImagenArchivo = New System.Windows.Forms.PictureBox()
         Me.dgvFOA = New System.Windows.Forms.DataGridView()
-        Me.ID = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Observaciones = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Estado = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Ejecutar = New System.Windows.Forms.Button()
         Me.Limpiar = New System.Windows.Forms.Button()
         Me.Obs = New System.Windows.Forms.GroupBox()
+        Me.ID = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Observaciones = New System.Windows.Forms.DataGridViewTextBoxColumn()
         CType(Me.ImagenArchivo, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.dgvFOA, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -51,7 +50,7 @@ Partial Class FUA
         Me.dgvFOA.AllowUserToResizeRows = False
         Me.dgvFOA.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.dgvFOA.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Sunken
-        Me.dgvFOA.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.ID, Me.Column1, Me.Observaciones, Me.Estado})
+        Me.dgvFOA.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.ID, Me.Column1, Me.Observaciones})
         Me.dgvFOA.Location = New System.Drawing.Point(12, 12)
         Me.dgvFOA.Name = "dgvFOA"
         Me.dgvFOA.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken
@@ -59,32 +58,6 @@ Partial Class FUA
         Me.dgvFOA.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing
         Me.dgvFOA.Size = New System.Drawing.Size(642, 367)
         Me.dgvFOA.TabIndex = 1
-        '
-        'ID
-        '
-        Me.ID.HeaderText = "ID"
-        Me.ID.Name = "ID"
-        Me.ID.ReadOnly = True
-        Me.ID.Visible = False
-        '
-        'Column1
-        '
-        Me.Column1.HeaderText = "Usuario"
-        Me.Column1.Name = "Column1"
-        Me.Column1.ReadOnly = True
-        '
-        'Observaciones
-        '
-        Me.Observaciones.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
-        Me.Observaciones.HeaderText = "Observaciones"
-        Me.Observaciones.Name = "Observaciones"
-        Me.Observaciones.ReadOnly = True
-        '
-        'Estado
-        '
-        Me.Estado.HeaderText = "Estado"
-        Me.Estado.Name = "Estado"
-        Me.Estado.Width = 90
         '
         'Ejecutar
         '
@@ -116,6 +89,26 @@ Partial Class FUA
         Me.Obs.TabStop = False
         Me.Obs.Text = "Observaciones"
         '
+        'ID
+        '
+        Me.ID.HeaderText = "ID"
+        Me.ID.Name = "ID"
+        Me.ID.ReadOnly = True
+        Me.ID.Visible = False
+        '
+        'Column1
+        '
+        Me.Column1.HeaderText = "Usuario"
+        Me.Column1.Name = "Column1"
+        Me.Column1.ReadOnly = True
+        '
+        'Observaciones
+        '
+        Me.Observaciones.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
+        Me.Observaciones.HeaderText = "Observaciones"
+        Me.Observaciones.Name = "Observaciones"
+        Me.Observaciones.ReadOnly = True
+        '
         'FUA
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -141,6 +134,5 @@ Partial Class FUA
     Friend WithEvents ID As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents Column1 As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents Observaciones As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents Estado As System.Windows.Forms.DataGridViewTextBoxColumn
 
 End Class

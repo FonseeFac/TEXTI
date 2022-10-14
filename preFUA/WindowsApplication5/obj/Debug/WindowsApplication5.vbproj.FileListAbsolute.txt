@@ -19,3 +19,13 @@ C:\Users\computos2\Documents\RepositorioGit\preFOA\WindowsApplication5\bin\Debug
 C:\Users\computos2\Documents\RepositorioGit\preFOA\WindowsApplication5\obj\Debug\WindowsApplication5.exe
 C:\Users\computos2\Documents\RepositorioGit\preFOA\WindowsApplication5\obj\Debug\WindowsApplication5.xml
 C:\Users\computos2\Documents\RepositorioGit\preFOA\WindowsApplication5\obj\Debug\WindowsApplication5.pdb
+C:\Users\computos2\Documents\RepositorioGit\preFUA\WindowsApplication5\bin\Debug\WindowsApplication5.exe.config
+C:\Users\computos2\Documents\RepositorioGit\preFUA\WindowsApplication5\obj\Debug\WindowsApplication5.exe
+C:\Users\computos2\Documents\RepositorioGit\preFUA\WindowsApplication5\obj\Debug\WindowsApplication5.xml
+C:\Users\computos2\Documents\RepositorioGit\preFUA\WindowsApplication5\obj\Debug\WindowsApplication5.pdb
+C:\Users\computos2\Documents\RepositorioGit\preFUA\WindowsApplication5\bin\Debug\WindowsApplication5.exe
+C:\Users\computos2\Documents\RepositorioGit\preFUA\WindowsApplication5\bin\Debug\WindowsApplication5.pdb
+C:\Users\computos2\Documents\RepositorioGit\preFUA\WindowsApplication5\bin\Debug\WindowsApplication5.xml
+C:\Users\computos2\Documents\RepositorioGit\preFUA\WindowsApplication5\obj\Debug\WindowsApplication5.FUA.resources
+C:\Users\computos2\Documents\RepositorioGit\preFUA\WindowsApplication5\obj\Debug\WindowsApplication5.Resources.resources
+C:\Users\computos2\Documents\RepositorioGit\preFUA\WindowsApplication5\obj\Debug\WindowsApplication5.vbproj.GenerateResource.Cache

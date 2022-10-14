@@ -13,8 +13,16 @@ Public Class FUA
         FECHA_ACTUAL = Str(Date.Now.Month) + "-"
         FECHA_ACTUAL = Str(Date.Now.Year)
         Me.Text = "FUA"
-        Dim frl_list As New ContextMenuStrip
+
+        Dim frl_list As New DataGridViewComboBoxColumn
+        frl_list.Name = "lista"
+        frl_list.HeaderText = "Estado"
+        frl_list.Items.Add("Aprobado")
+        frl_list.Items.Add("Rechazado")
+
         dgvFOA.Columns.Add(frl_list)
+
+
         If state Then
             load_dgv_desde_archivo()
             existe_imagen()
@@ -26,8 +34,13 @@ Public Class FUA
         Dim path As String
         Dim legajo, observacion As String
         Try
+            If Not My.Computer.FileSystem.FileExists("FOA.txt") Then
+                File.Create("./FOA.txt").Dispose()
+            End If
+
+
             path = ".\"
-            path = path + "FOA" + FECHA_ACTUAL + ".txt"
+            path = path + "FOA.txt"
             Dim leer As New StreamReader(path)
             Dim rownumb As Integer = 0
 
@@ -91,9 +104,9 @@ Public Class FUA
     End Sub
 
     Private Sub Ejecutar_Click(sender As Object, e As EventArgs) Handles Ejecutar.Click
+        dgvFOA.Rows.Clear()
         state = False
         exec_script()
-        dgvFOA.Rows.Clear()
         If state = True Then
             FECHA_ACTUAL = Format(Now, "yyyy-MM-dd")
 

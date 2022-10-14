@@ -111,10 +111,10 @@ def formatear_datos(respuesta_txt):
                 stream_archivo.write("{0}".format(stream_datos_procesados))
 
     # Si el stream_datos contiene al menos un update_id suma a OFFSET esa cantidad
-    # CANTIDAD_MENSAJES = stream_datos_procesados.count("update_id")
+    CANTIDAD_MENSAJES = stream_datos_procesados.count("update_id")
 
     # Sumo a OFFSET la cantidad de datos que lei, para que solo tome los updates nuevos
-    # OFFSET = OFFSET + CANTIDAD_MENSAJES
+    ##OFFSET = OFFSET + CANTIDAD_MENSAJES
 
     stream_archivo.close()
 
