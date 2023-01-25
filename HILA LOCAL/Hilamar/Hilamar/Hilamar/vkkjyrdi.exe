@@ -1,0 +1,523 @@
+﻿Imports System.Data.SqlClient
+Imports System.IO
+Imports System.Data.OleDb
+
+Public Class frmRepoHiladosStock
+
+    Dim Command As New SqlCommand
+    Dim Reader As SqlDataReader
+    Dim sStr As String
+
+    Private nRowPos As Int16
+    Private NewPage As Boolean
+    Private nPageNo As Int16
+    Private lPageNo As String = ""
+
+    Dim LegajoLogueado As String 'legajo de quien va a trabajar
+    Dim TipoUsuario As String ' Tipo de usuario que va a trabajar, lo voy a usar para saber que le habilito a usar y que no
+
+    Sub New(ByVal parametro1 As String, ByVal parametro2 As String)
+
+        InitializeComponent() 'es necesario que lleve esta linea
+
+        LegajoLogueado = parametro1
+        TipoUsuario = parametro2
+
+    End Sub
+
+    Private Sub CargarReporteHilados()
+        On Error GoTo ErrCargarReporteHilados
+
+        Dim ultimoCodigoLeido As String = ""
+        Dim UltimaModifLocal, UltimaModifServer As Date
+        Dim row As String()
+        Dim sStr As String
+        Dim TotalHilado, TotalGral As Double
+        Dim CORTE, Prove, Tipo, Auxguardatxt, ArtIni, ArtFin As String
+        CORTE = ""
+        Prove = ""
+        Tipo = ""
+
+        If Not Validar() Then Exit Sub
+
+        If txtCodArtDesde.Text <> "" Then txtCodArtDesde.Text = CInt(txtCodArtDesde.Text)
+        If txtCodArtHasta.Text <> "" Then txtCodArtHasta.Text = CInt(txtCodArtHasta.Text)
+
+        If txtCodArtDesde.Text <> "" And txtCodArtHasta.Text <> "" Then
+            If CInt(txtCodArtDesde.Text) > CInt(txtCodArtHasta.Text) Then
+                Auxguardatxt = txtCodArtDesde.Text
+                txtCodArtDesde.Text = txtCodArtHasta.Text
+                txtCodArtHasta.Text = Auxguardatxt
+            End If
+        End If
+
+        If txtCodArtDesde.Text <> "" Then
+            ArtIni = txtCodArtDesde.Text
+        Else
+            ArtIni = "0"
+        End If
+
+        If txtCodArtHasta.Text <> "" Then
+            ArtFin = txtCodArtHasta.Text
+        Else
+            ArtFin = "999999"
+        End If
+
+
+        If Not File.Exists(Application.StartupPath + "\bases\hilstock.dbf") Then
+            File.Copy("\\192.168.0.12\u\hilamar\sto\hilstock.dbf", Application.StartupPath + "\bases\hilstock.dbf")
+        Else
+            UltimaModifLocal = My.Computer.FileSystem.GetFileInfo(Application.StartupPath + "\bases\hilstock.dbf").LastWriteTime
+            UltimaModifServer = My.Computer.FileSystem.GetFileInfo("\\192.168.0.12\u\hilamar\sto\hilstock.dbf").LastWriteTime
+            If UltimaModifLocal < UltimaModifServer Then
+                My.Computer.FileSystem.DeleteFile(Application.StartupPath + "\bases\hilstock.dbf")
+                File.Copy("\\192.168.0.12\u\hilamar\sto\hilstock.dbf", Application.StartupPath + "\bases\hilstock.dbf")
+            End If
+        End If
+
+        If Not File.Exists(Application.StartupPath + "\bases\tipohila.dbf") Then
+            File.Copy("\\192.168.0.12\u\hilamar\sto\tipohila.dbf", Application.StartupPath + "\bases\tipohila.dbf")
+        Else
+            UltimaModifLocal = My.Computer.FileSystem.GetFileInfo(Application.StartupPath + "\bases\tipohila.dbf").LastWriteTime
+            UltimaModifServer = My.Computer.FileSystem.GetFileInfo("\\192.168.0.12\u\hilamar\sto\tipohila.dbf").LastWriteTime
+            If UltimaModifLocal < UltimaModifServer Then
+                My.Computer.FileSystem.DeleteFile(Application.StartupPath + "\bases\tipohila.dbf")
+                File.Copy("\\192.168.0.12\u\hilamar\sto\tipohila.dbf", Application.StartupPath + "\bases\tipohila.dbf")
+            End If
+        End If
+
+        limpiaryarmarlosdgv()
+
+        TotalHilado = 0
+        TotalGral = 0
+
+        Dim ConnString As String = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + Application.StartupPath.ToString + "\bases" + ";Extended Properties=dBASE IV;User ID=Admin;Password="
+        Dim DBFConn As New OleDbConnection(ConnString)
+        DBFConn.Open()
+
+        sStr = "SELECT * FROM HILSTOCK H INNER JOIN TIPOHILA T ON H.CODIS=T.CODI "
+        sStr = sStr + " WHERE KILOS > 0 ORDER BY CODIS"
+
+        Dim DBFCommand As OleDbCommand = New OleDbCommand(sStr, DBFConn)
+        Dim DBFDataReader As OleDbDataReader = DBFCommand.ExecuteReader(CommandBehavior.Default)
+        Do While DBFDataReader.Read
+            If CORTE <> DBFDataReader("CODIS").ToString Then
+                If CORTE = "" Then
+                    CORTE = DBFDataReader("CODIS").ToString
+                    Prove = DBFDataReader("PROVE").ToString
+                    Tipo = DBFDataReader("Tipo").ToString
+                    TotalHilado = 0
+                Else
+                    If CInt(CORTE) >= CInt(ArtIni) And CInt(CORTE) <= CInt(ArtFin) Then
+                        row = {CORTE, Prove, Tipo, Format(TotalHilado, "0.000")}
+                        dgvHilados.Rows.Add(row)
+                    End If
+                    CORTE = DBFDataReader("CODIS").ToString
+                    Prove = DBFDataReader("PROVE").ToString
+                    Tipo = DBFDataReader("Tipo").ToString
+                    TotalHilado = 0
+                End If
+            End If
+            row = {DBFDataReader("CODIS").ToString, DBFDataReader("PARTIS").ToString, DBFDataReader("NUMCOS").ToString, DBFDataReader("COLORS").ToString, Format(DBFDataReader("KILOS"), "0.000"), Format(DBFDataReader("KILPRO"), "0.000")}
+            dgvPartidas.Rows.Add(row)
+            TotalHilado = TotalHilado + CDbl(DBFDataReader("KILOS").ToString)
+            TotalGral = TotalGral + CDbl(DBFDataReader("KILOS").ToString)
+            ultimoCodigoLeido = DBFDataReader("CODIS").ToString
+        Loop
+        'al final por si llego hasta el ultimo controlo que me falta cargar el ultimo total
+        If CORTE <> ultimoCodigoLeido Then
+            If CInt(ultimoCodigoLeido) >= CInt(ArtIni) And CInt(ultimoCodigoLeido) <= CInt(ArtFin) Then
+                row = {CORTE, Prove, Tipo, Format(TotalHilado, "0.000")}
+                dgvHilados.Rows.Add(row)
+            End If
+        End If
+
+        DBFConn.Close()
+
+
+        lblTotalGral.Text = "TOTAL GENERAL EN EXISTENCIA :  " + Format(TotalGral, "0.000") + " KGR."
+
+        'cuando termino simulo un click en la primer fila asi quedan filtradas las partidas del primer hilado
+        If dgvHilados.RowCount > 0 Then
+            dgvHilados.Rows(0).Selected = True
+            FiltrarDGVPartidas(dgvHilados.Rows(0).Cells(0).Value.ToString)
+        End If
+
+        Exit Sub
+ErrCargarReporteHilados:
+        If Err.Number = 57 Then
+            MensajeCritico("Archivo de existencias de hilados en uso. Intente nuevamente en otro momento.")
+        Else
+            MensajeCritico("Error al recuperar las existencias de hilado.")
+        End If
+
+    End Sub
+
+    Private Sub limpiaryarmarlosdgv()
+        dgvHilados.Rows.Clear()
+        dgvHilados.Columns.Clear()
+        dgvHilados.Columns.Add("CODIGO", "CODIGO")
+        dgvHilados.Columns("CODIGO").DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleLeft
+        dgvHilados.Columns("CODIGO").Width = 60
+        dgvHilados.Columns("CODIGO").ReadOnly = True
+        dgvHilados.Columns.Add("PROVE", "PROVE")
+        dgvHilados.Columns("PROVE").DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleLeft
+        dgvHilados.Columns("PROVE").Width = 90
+        dgvHilados.Columns("PROVE").ReadOnly = True
+        dgvHilados.Columns("PROVE").SortMode = DataGridViewColumnSortMode.NotSortable
+        dgvHilados.Columns.Add("TIPO", "TIPO")
+        dgvHilados.Columns("TIPO").DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleLeft
+        dgvHilados.Columns("TIPO").Width = 160
+        dgvHilados.Columns("TIPO").ReadOnly = True
+        dgvHilados.Columns("TIPO").SortMode = DataGridViewColumnSortMode.NotSortable
+        dgvHilados.Columns.Add("KILOS", "KILOS")
+        dgvHilados.Columns("KILOS").DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight
+        dgvHilados.Columns("KILOS").DefaultCellStyle.Font = New Font("Arial", 9, FontStyle.Regular)
+        dgvHilados.Columns("KILOS").Width = 80
+        dgvHilados.Columns("KILOS").ReadOnly = True
+        dgvHilados.Columns("KILOS").SortMode = DataGridViewColumnSortMode.NotSortable
+
+        dgvPartidas.Rows.Clear()
+        dgvPartidas.Columns.Clear()
+        dgvPartidas.Columns.Add("CODIS", "CODIS")
+        dgvPartidas.Columns("CODIS").DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleLeft
+        dgvPartidas.Columns("CODIS").Visible = False
+        dgvPartidas.Columns.Add("PARTIDA", "PARTIDA")
+        dgvPartidas.Columns("PARTIDA").DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleLeft
+        dgvPartidas.Columns("PARTIDA").Width = 85
+        dgvPartidas.Columns("PARTIDA").ReadOnly = True
+        dgvPartidas.Columns.Add("NROCOLOR", "NRO.COLOR")
+        dgvPartidas.Columns("NROCOLOR").DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleLeft
+        dgvPartidas.Columns("NROCOLOR").Width = 80
+        dgvPartidas.Columns("NROCOLOR").ReadOnly = True
+        dgvPartidas.Columns("NROCOLOR").SortMode = DataGridViewColumnSortMode.NotSortable
+        dgvPartidas.Columns.Add("COLOR", "COLOR")
+        dgvPartidas.Columns("COLOR").DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleLeft
+        dgvPartidas.Columns("COLOR").Width = 150
+        dgvPartidas.Columns("COLOR").ReadOnly = True
+        dgvPartidas.Columns("COLOR").SortMode = DataGridViewColumnSortMode.NotSortable
+        dgvPartidas.Columns.Add("STOCKACTUAL", "STOCK")
+        dgvPartidas.Columns("STOCKACTUAL").DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight
+        dgvPartidas.Columns("STOCKACTUAL").DefaultCellStyle.Font = New Font("Arial", 9, FontStyle.Regular)
+        dgvPartidas.Columns("STOCKACTUAL").Width = 90
+        dgvPartidas.Columns("STOCKACTUAL").ReadOnly = True
+        dgvPartidas.Columns.Add("PCARDADO", "P.CARDADO")
+        dgvPartidas.Columns("PCARDADO").DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight
+        dgvPartidas.Columns("PCARDADO").Width = 100
+        dgvPartidas.Columns("PCARDADO").ReadOnly = True
+
+        dgvPartidas.RowTemplate.Height = 19
+    End Sub
+
+    Private Sub cmdImpPlanilla_Click(sender As System.Object, e As System.EventArgs) Handles cmdImpPlanilla.Click
+        If dgvHilados.RowCount <= 0 Then Exit Sub
+
+        CalculoCantidadDeHojas()
+
+        pdoImpExistencias.DefaultPageSettings.Landscape = False
+        pdoImpExistencias.DefaultPageSettings.Margins.Left = 20
+        pdoImpExistencias.DefaultPageSettings.Margins.Right = 20
+        pdoImpExistencias.DefaultPageSettings.Margins.Top = 20
+        pdoImpExistencias.DefaultPageSettings.Margins.Bottom = 20
+        pdoImpExistencias.OriginAtMargins = True ' takes margins into account 
+
+        Dim dlgPrintPreview As New EnhancedPrintPreviewDialog
+        dlgPrintPreview.ClientSize = New System.Drawing.Size(600, 600)
+        dlgPrintPreview.Document = pdoImpExistencias ' Previews print
+        dlgPrintPreview.ShowDialog()
+
+        'pdoImpPlanilla.Print()
+
+    End Sub
+
+    Private Sub pdoImpExistencias_BeginPrint(sender As Object, e As System.Drawing.Printing.PrintEventArgs) Handles pdoImpExistencias.BeginPrint
+        nRowPos = 0
+        NewPage = True
+        nPageNo = 1
+    End Sub
+
+    Private Sub pdoImpPlanilla_PrintPage(ByVal sender As System.Object, ByVal e As System.Drawing.Printing.PrintPageEventArgs) Handles pdoImpExistencias.PrintPage
+        On Error Resume Next
+
+        Dim CORTE, ArtIni, ArtFin As String
+        Dim AuxFila As Integer
+
+        Dim FuenteLineas As Font = New Drawing.Font("Arial", 10, FontStyle.Regular)
+        Dim FuenteLineas8 As Font = New Drawing.Font("Arial", 8, FontStyle.Regular)
+        Dim FuenteTituloEnc As Font = New Drawing.Font("Arial", 12, FontStyle.Regular)
+
+        Dim nTop As Int16 = e.MarginBounds.Top
+
+        CORTE = ""
+        If txtCodArtDesde.Text <> "" Then
+            ArtIni = txtCodArtDesde.Text
+        Else
+            ArtIni = "0"
+        End If
+        If txtCodArtHasta.Text <> "" Then
+            ArtFin = txtCodArtHasta.Text
+        Else
+            ArtFin = "999999"
+        End If
+
+
+        Do While nRowPos < dgvPartidas.RowCount
+
+            If nTop > e.MarginBounds.Height - e.MarginBounds.Top - 50 Then
+                'LUEGO EL PIE DE PAGINA
+                DrawFooter(e)
+
+                nPageNo += 1
+                NewPage = True
+                e.HasMorePages = True
+                Exit Sub
+
+            Else
+
+                If NewPage Then
+
+                    ' Draw Header
+                    e.Graphics.DrawString("EXISTENCIAS DE HILADO AL " + Format(Now, "dd/MM/yyyy"), FuenteTituloEnc, Brushes.Black, 200, nTop)
+                    nTop = nTop + 24
+
+                    'LOS ENCABEZADOS DE LA TABLA
+                    e.Graphics.DrawLine(Pens.Black, 20, nTop, 790, nTop)
+                    nTop = nTop + 2
+                    e.Graphics.DrawLine(Pens.Black, 20, nTop, 790, nTop)
+                    nTop = nTop + 2
+                    e.Graphics.DrawString("PARTIDA", FuenteLineas, Brushes.Black, 25, nTop)
+                    e.Graphics.DrawString("NRO.COLOR", FuenteLineas, Brushes.Black, 125, nTop)
+                    e.Graphics.DrawString("COLOR", FuenteLineas, Brushes.Black, 250, nTop)
+                    e.Graphics.DrawString("STOCK ACTUAL", FuenteLineas, Brushes.Black, 550 - e.Graphics.MeasureString("STOCK ACTUAL", FuenteLineas).Width, nTop)
+                    e.Graphics.DrawString("OBSERVACIONES", FuenteLineas, Brushes.Black, 700 - e.Graphics.MeasureString("OBSERVACIONES", FuenteLineas).Width, nTop)
+                    nTop = nTop + 20
+                    e.Graphics.DrawLine(Pens.Black, 20, nTop, 790, nTop)
+                    nTop = nTop + 2
+                    e.Graphics.DrawLine(Pens.Black, 20, nTop, 790, nTop)
+                    nTop = nTop + 2
+
+                    NewPage = False
+
+                End If
+
+                If CORTE <> dgvPartidas.Rows(nRowPos).Cells(0).Value.ToString Then
+                    If CORTE = "" Then
+                        CORTE = dgvPartidas.Rows(nRowPos).Cells(0).Value.ToString
+                    Else
+                        If CInt(CORTE) >= CInt(ArtIni) And CInt(CORTE) <= CInt(ArtFin) Then
+                            AuxFila = ObtenerFiladelHiladoconelCodigo(CORTE)
+                            nTop = nTop + 5
+                            e.Graphics.DrawString(dgvHilados.Rows(AuxFila).Cells(0).Value, FuenteLineas8, Brushes.Black, New RectangleF(25, nTop, 200, 20))
+                            nTop = nTop + 16
+                            e.Graphics.DrawString(dgvHilados.Rows(AuxFila).Cells(1).Value, FuenteLineas8, Brushes.Black, New RectangleF(25, nTop, 175, 20))
+                            e.Graphics.DrawString(dgvHilados.Rows(AuxFila).Cells(2).Value, FuenteLineas8, Brushes.Black, New RectangleF(200, nTop, 200, 20))
+                            e.Graphics.DrawString("KGR: " + dgvHilados.Rows(AuxFila).Cells(3).Value.ToString, FuenteLineas8, Brushes.Black, 625 - e.Graphics.MeasureString("KGR: " + dgvHilados.Rows(AuxFila).Cells(3).Value.ToString, FuenteLineas8).Width, nTop)
+                            nTop = nTop + 20
+                            e.Graphics.DrawLine(Pens.Black, 20, nTop, 790, nTop)
+                            nTop = nTop + 2
+
+                        End If
+                        CORTE = dgvPartidas.Rows(nRowPos).Cells(0).Value.ToString
+                    End If
+                End If
+
+                If CInt(CORTE) >= CInt(ArtIni) And CInt(CORTE) <= CInt(ArtFin) Then
+
+                    e.Graphics.DrawString(dgvPartidas.Rows(nRowPos).Cells(1).Value, FuenteLineas8, Brushes.Black, New RectangleF(25, nTop, 100, 20))
+                    e.Graphics.DrawString(dgvPartidas.Rows(nRowPos).Cells(2).Value, FuenteLineas8, Brushes.Black, New RectangleF(125, nTop, 125, 20))
+                    e.Graphics.DrawString(dgvPartidas.Rows(nRowPos).Cells(3).Value, FuenteLineas8, Brushes.Black, New RectangleF(250, nTop, 200, 20))
+                    e.Graphics.DrawString(dgvPartidas.Rows(nRowPos).Cells(4).Value, FuenteLineas8, Brushes.Black, 550 - e.Graphics.MeasureString(dgvPartidas.Rows(nRowPos).Cells(4).Value.ToString, FuenteLineas8).Width, nTop)
+                    e.Graphics.DrawString(dgvPartidas.Rows(nRowPos).Cells(5).Value, FuenteLineas8, Brushes.Black, 700 - e.Graphics.MeasureString(dgvPartidas.Rows(nRowPos).Cells(5).Value.ToString, FuenteLineas8).Width, nTop)
+                    nTop = nTop + 20
+
+                End If
+
+
+            End If
+
+            nRowPos += 1
+        Loop
+
+        'el  total de existencias
+        nTop = nTop + 5
+        e.Graphics.DrawString(lblTotalGral.Text, FuenteLineas, Brushes.Black, 625 - e.Graphics.MeasureString(lblTotalGral.Text, FuenteLineas).Width, nTop)
+
+
+        'LUEGO EL PIE DE PAGINA
+        DrawFooter(e)
+
+    End Sub
+
+    Public Sub DrawFooter(ByVal e As System.Drawing.Printing.PrintPageEventArgs)
+        Dim FuenteLineas8 As Font = New Drawing.Font("Arial", 8, FontStyle.Regular)
+
+        Dim sPageNo As String = nPageNo.ToString + " de "
+
+        If nPageNo = "1" Then
+            lPageNo = CalculoCantidaddeHojas().ToString
+            sPageNo = nPageNo.ToString + " de " + lPageNo
+        Else
+            sPageNo = nPageNo.ToString + " de " + lPageNo
+        End If
+
+        e.Graphics.DrawLine(Pens.Black, 20, e.MarginBounds.Height - 17, 790, e.MarginBounds.Height - 17)
+
+        ' Right Align - User Name
+        e.Graphics.DrawString(Format(Now, "dd/MM/yyyy HH:mm:ss"), FuenteLineas8, Brushes.Black, 660, e.MarginBounds.Height - 15)
+
+        ' Center - Page No. Info
+        e.Graphics.DrawString(sPageNo, FuenteLineas8, Brushes.Black, e.MarginBounds.Left + (e.MarginBounds.Width - e.Graphics.MeasureString(sPageNo, FuenteLineas8, e.MarginBounds.Width).Width) / 2, e.MarginBounds.Height - 15)
+
+        e.Graphics.DrawLine(Pens.Black, 20, e.MarginBounds.Height, 790, e.MarginBounds.Height)
+
+    End Sub
+
+
+
+    Private Function CalculoCantidaddeHojas() As Int16
+        Dim NroPag As Int16 = 1
+        Dim FilaPos As Int16 = 0
+        Dim CORTE, ArtIni, ArtFin As String
+        Dim OtraPagina As Boolean = True
+
+        Dim nTop As Int16 = 20
+
+        CORTE = ""
+        If txtCodArtDesde.Text <> "" Then
+            ArtIni = txtCodArtDesde.Text
+        Else
+            ArtIni = "0"
+        End If
+        If txtCodArtHasta.Text <> "" Then
+            ArtFin = txtCodArtHasta.Text
+        Else
+            ArtFin = "999999"
+        End If
+
+
+        Do While FilaPos < dgvPartidas.RowCount
+
+            If nTop > 1050 Then
+                nTop = 20
+                NroPag += 1
+                OtraPagina = True
+            Else
+
+                If OtraPagina Then
+                    ' Draw Header
+                    nTop = nTop + 24
+                    'LOS ENCABEZADOS DE LA TABLA
+                    nTop = nTop + 2
+                    nTop = nTop + 2
+                    nTop = nTop + 20
+                    nTop = nTop + 2
+                    nTop = nTop + 2
+                    OtraPagina = False
+                End If
+
+                If CORTE <> dgvPartidas.Rows(FilaPos).Cells(0).Value.ToString Then
+                    If CORTE = "" Then
+                        CORTE = dgvPartidas.Rows(FilaPos).Cells(0).Value.ToString
+                    Else
+                        If CInt(CORTE) >= CInt(ArtIni) And CInt(CORTE) <= CInt(ArtFin) Then
+                            nTop = nTop + 5
+                            nTop = nTop + 16
+                            nTop = nTop + 20
+                            nTop = nTop + 2
+                        End If
+                        CORTE = dgvPartidas.Rows(FilaPos).Cells(0).Value.ToString
+                    End If
+                End If
+
+                If CInt(CORTE) >= CInt(ArtIni) And CInt(CORTE) <= CInt(ArtFin) Then
+
+                    nTop = nTop + 20
+
+                End If
+
+            End If
+
+            FilaPos += 1
+        Loop
+
+        Return NroPag
+    End Function
+
+
+    Private Sub cmdListar_Click(sender As System.Object, e As System.EventArgs) Handles cmdListar.Click
+        CargarReporteHilados()
+    End Sub
+
+    Private Sub cmdSalir_Click(sender As System.Object, e As System.EventArgs) Handles cmdSalir.Click
+        Close()
+    End Sub
+
+    Private Sub dgvHilados_CellClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgvHilados.CellClick
+        FiltrarDGVPartidas(dgvHilados.Rows(dgvHilados.CurrentRow.Index).Cells(0).Value.ToString)
+        lblTotalHilado.Text = "TOTAL DEL HILADO EN EXISTENCIA :  " + Format(CDbl(dgvHilados.Rows(dgvHilados.CurrentRow.Index).Cells(3).Value), "0.000") + " KGR."
+    End Sub
+
+    Private Sub FiltrarDGVPartidas(ByVal Codis As String)
+        Dim i As Integer
+        For i = 0 To dgvPartidas.RowCount - 1
+            If dgvPartidas.Rows(i).Cells(0).Value.ToString = Codis Then
+                dgvPartidas.Rows(i).Visible = True
+            Else
+                dgvPartidas.Rows(i).Visible = False
+            End If
+        Next
+    End Sub
+
+    Private Function ObtenerFiladelHiladoconelCodigo(ByVal Codis As String) As Integer
+        Dim i As Integer
+        For i = 0 To dgvHilados.RowCount - 1
+            If dgvHilados.Rows(i).Cells(0).Value.ToString = Codis Then
+                ObtenerFiladelHiladoconelCodigo = i
+                Exit Function
+            End If
+        Next
+        ObtenerFiladelHiladoconelCodigo = -1
+    End Function
+
+    Private Function Validar() As Boolean
+        If txtCodArtDesde.Text <> "" Then
+            If Not IsNumeric(txtCodArtDesde.Text) Then
+                MensajeCritico("El Cod Art Desde debe ser numérico. Verifique.")
+                Validar = False
+                Exit Function
+            End If
+        End If
+
+        If txtCodArtHasta.Text <> "" Then
+            If Not IsNumeric(txtCodArtHasta.Text) Then
+                MensajeCritico("El Cod Art Hasta debe ser numérico. Verifique.")
+                Validar = False
+                Exit Function
+            End If
+        End If
+
+        Validar = True
+    End Function
+
+    Private Sub txtCodArtDesde_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtCodArtDesde.KeyPress
+        If e.KeyChar = Convert.ToChar(Keys.Return) Then
+            e.Handled = True
+            txtCodArtHasta.Select()
+        End If
+    End Sub
+
+    Private Sub txtCodArtHasta_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtCodArtHasta.KeyPress
+        If e.KeyChar = Convert.ToChar(Keys.Return) Then
+            e.Handled = True
+            cmdListar.Select()
+        End If
+    End Sub
+
+    Private Sub frmRepoHiladosStock_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+        txtCodArtDesde.Text = "50"
+        txtCodArtHasta.Text = "300"
+
+        txtCodArtDesde.Select()
+    End Sub
+End Class

@@ -1,0 +1,778 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{90377FCF-CC31-4D65-AAB6-E1F99F5A6680}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Hilamar.My.MyApplication</StartupObject>
+    <RootNamespace>Hilamar</RootNamespace>
+    <AssemblyName>Hilamar</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Hilamar.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Hilamar.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>mslogo_192px.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BarcodeLib">
+      <HintPath>C:\Textilana\BarcodeLib.dll</HintPath>
+    </Reference>
+    <Reference Include="EPPlus">
+      <HintPath>..\packages\EPPlus.4.5.1\lib\net40\EPPlus.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\..\Windows\assembly\GAC_MSIL\Microsoft.Office.Interop.Excel\14.0.0.0__71e9bce111e9429c\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="cConexionSQL.vb" />
+    <Compile Include="DataGridViewPrinter.vb" />
+    <Compile Include="EnhancedPrintPreviewDialog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmABMArticulos.Designer.vb">
+      <DependentUpon>frmABMArticulos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmABMArticulos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmABMArticulosCategorias.Designer.vb">
+      <DependentUpon>frmABMArticulosCategorias.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmABMArticulosCategorias.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmABMColorIndex.Designer.vb">
+      <DependentUpon>frmABMColorIndex.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmABMColorIndex.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAltaReserva.designer.vb">
+      <DependentUpon>frmAltaReserva.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAltaReserva.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListadoColoresIndex.Designer.vb">
+      <DependentUpon>frmListadoColoresIndex.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmListadoColoresIndex.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmABMProveedores-Articulo.Designer.vb">
+      <DependentUpon>frmABMProveedores-Articulo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmABMProveedores-Articulo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmABMUnidadesMedidas.Designer.vb">
+      <DependentUpon>frmABMUnidadesMedidas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmABMUnidadesMedidas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCrearArticulo.Designer.vb">
+      <DependentUpon>frmCrearArticulo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCrearArticulo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHilaPartidasYCommodities.Designer.vb">
+      <DependentUpon>frmHilaPartidasYCommodities.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmHilaPartidasYCommodities.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIngresoStock.Designer.vb">
+      <DependentUpon>frmIngresoStock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmIngresoStock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAltaMovimiento.designer.vb">
+      <DependentUpon>frmAltaMovimiento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAltaMovimiento.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAltaEntrMatPrim.Designer.vb">
+      <DependentUpon>frmAltaEntrMatPrim.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAltaEntrMatPrim.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAltaSaliMatPrim.Designer.vb">
+      <DependentUpon>frmAltaSaliMatPrim.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAltaSaliMatPrim.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListadoMovimientos.designer.vb">
+      <DependentUpon>frmListadoMovimientos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmListadoMovimientos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmObtieneObservacion.designer.vb">
+      <DependentUpon>frmObtieneObservacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmObtieneObservacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRepoMantActivDiaria.designer.vb">
+      <DependentUpon>frmRepoMantActivDiaria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRepoMantActivDiaria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRepoRevisarActividadMant.designer.vb">
+      <DependentUpon>frmRepoRevisarActividadMant.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRepoRevisarActividadMant.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHilaRepoDiscontinuos.designer.vb">
+      <DependentUpon>frmHilaRepoDiscontinuos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmHilaRepoDiscontinuos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmImpresorEtiquetas.designer.vb">
+      <DependentUpon>frmImpresorEtiquetas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmImpresorEtiquetas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHilaRepoIngyConsu.designer.vb">
+      <DependentUpon>frmHilaRepoIngyConsu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmHilaRepoIngyConsu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRepoCompStock.designer.vb">
+      <DependentUpon>frmRepoCompStock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRepoCompStock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHilaRemitoConsumo.designer.vb">
+      <DependentUpon>frmHilaRemitoConsumo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmHilaRemitoConsumo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHilaEditaMov.designer.vb">
+      <DependentUpon>frmHilaEditaMov.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmHilaEditaMov.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHilaRepoMovimHilados.designer.vb">
+      <DependentUpon>frmHilaRepoMovimHilados.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmHilaRepoMovimHilados.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHilaABMPartidas.designer.vb">
+      <DependentUpon>frmHilaABMPartidas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmHilaABMPartidas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHilaABMHilados.designer.vb">
+      <DependentUpon>frmHilaABMHilados.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmHilaABMHilados.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmABMUsuariosTablet.designer.vb">
+      <DependentUpon>frmABMUsuariosTablet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmABMUsuariosTablet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHilaRemitoEgreso.designer.vb">
+      <DependentUpon>frmHilaRemitoEgreso.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmHilaRemitoEgreso.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRepoCostoArticulos_3.designer.vb">
+      <DependentUpon>frmRepoCostoArticulos_3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRepoCostoArticulos_3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRepoPlanMantenimiento.designer.vb">
+      <DependentUpon>frmRepoPlanMantenimiento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRepoPlanMantenimiento.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmABMCC.Designer.vb">
+      <DependentUpon>frmABMCC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmABMCC.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmABMPlanMantenimiento.designer.vb">
+      <DependentUpon>frmABMPlanMantenimiento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmABMPlanMantenimiento.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmABMMaquinas.designer.vb">
+      <DependentUpon>frmABMMaquinas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmABMMaquinas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmABMRecursosTareas.designer.vb">
+      <DependentUpon>frmABMRecursosTareas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmABMRecursosTareas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmABMTareas.designer.vb">
+      <DependentUpon>frmABMTareas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmABMTareas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmABMSectores.designer.vb">
+      <DependentUpon>frmABMSectores.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmABMSectores.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRepoCC.Designer.vb">
+      <DependentUpon>frmRepoCC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRepoCC.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmArtProdElegirPlanilla.designer.vb">
+      <DependentUpon>frmArtProdElegirPlanilla.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmArtProdElegirPlanilla.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOpcionesdeImpresion.designer.vb">
+      <DependentUpon>frmOpcionesdeImpresion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmOpcionesdeImpresion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRepoMatPrimaStock.designer.vb">
+      <DependentUpon>frmRepoMatPrimaStock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRepoMatPrimaStock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPosponerActividades.designer.vb">
+      <DependentUpon>frmPosponerActividades.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPosponerActividades.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHilaRemitoIngreso.designer.vb">
+      <DependentUpon>frmHilaRemitoIngreso.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmHilaRemitoIngreso.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBorrarABMIngresodeHilados.designer.vb">
+      <DependentUpon>frmBorrarABMIngresodeHilados.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmBorrarABMIngresodeHilados.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmABMComposCostos.designer.vb">
+      <DependentUpon>frmABMComposCostos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmABMComposCostos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmABMHiladoInterno.designer.vb">
+      <DependentUpon>frmABMHiladoInterno.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmABMHiladoInterno.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmArtProdAccABM.designer.vb">
+      <DependentUpon>frmArtProdAccABM.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmArtProdAccABM.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCambioContraseña.designer.vb">
+      <DependentUpon>frmCambioContraseña.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCambioContraseña.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmArtProdHistorial.designer.vb">
+      <DependentUpon>frmArtProdHistorial.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmArtProdHistorial.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmArtProdListado.designer.vb">
+      <DependentUpon>frmArtProdListado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmArtProdListado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmArtProdABM.designer.vb">
+      <DependentUpon>frmArtProdABM.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmArtProdABM.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmABMMateriaPrima.designer.vb">
+      <DependentUpon>frmABMMateriaPrima.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmABMMateriaPrima.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConfigHilamar.designer.vb">
+      <DependentUpon>frmConfigHilamar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmConfigHilamar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCostosConfigParametros.designer.vb">
+      <DependentUpon>frmCostosConfigParametros.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCostosConfigParametros.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrincipal.designer.vb">
+      <DependentUpon>frmPrincipal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBorrarRepoHiladoIngRepoTotales.designer.vb">
+      <DependentUpon>frmBorrarRepoHiladoIngRepoTotales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmBorrarRepoHiladoIngRepoTotales.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCambioUsuario.designer.vb">
+      <DependentUpon>frmCambioUsuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCambioUsuario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBorrarRepoHiladoIngMovimientos.designer.vb">
+      <DependentUpon>frmBorrarRepoHiladoIngMovimientos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmBorrarRepoHiladoIngMovimientos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmABMTextiSobranteHilado.designer.vb">
+      <DependentUpon>frmABMTextiSobranteHilado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmABMTextiSobranteHilado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmABMOPs.designer.vb">
+      <DependentUpon>frmABMOPs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmABMOPs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRepoHiladoTextiSobra.designer.vb">
+      <DependentUpon>frmRepoHiladoTextiSobra.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRepoHiladoTextiSobra.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRepoHiladoTextiStock.designer.vb">
+      <DependentUpon>frmRepoHiladoTextiStock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRepoHiladoTextiStock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdminOPs.designer.vb">
+      <DependentUpon>frmAdminOPs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAdminOPs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogueo.designer.vb">
+      <DependentUpon>frmLogueo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogueo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProgreso.designer.vb">
+      <DependentUpon>frmProgreso.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmProgreso.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRepoMovimientos.Designer.vb">
+      <DependentUpon>frmRepoMovimientos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRepoMovimientos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmABMSimple.Designer.vb">
+      <DependentUpon>frmABMSimple.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmABMSimple.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListado.Designer.vb">
+      <DependentUpon>frmListado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmListado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHilaRepoHiladosStock.designer.vb">
+      <DependentUpon>frmHilaRepoHiladosStock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmHilaRepoHiladosStock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCostosReporte.designer.vb">
+      <DependentUpon>frmCostosReporte.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCostosReporte.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Globales.vb" />
+    <Compile Include="Module1.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Telnet.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="EnhancedPrintPreviewDialog.resx">
+      <DependentUpon>EnhancedPrintPreviewDialog.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmABMArticulos.resx">
+      <DependentUpon>frmABMArticulos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmABMArticulosCategorias.resx">
+      <DependentUpon>frmABMArticulosCategorias.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmABMColorIndex.resx">
+      <DependentUpon>frmABMColorIndex.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAltaReserva.resx">
+      <DependentUpon>frmAltaReserva.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmListadoColoresIndex.resx">
+      <DependentUpon>frmListadoColoresIndex.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmABMProveedores-Articulo.resx">
+      <DependentUpon>frmABMProveedores-Articulo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmABMUnidadesMedidas.resx">
+      <DependentUpon>frmABMUnidadesMedidas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCrearArticulo.resx">
+      <DependentUpon>frmCrearArticulo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHilaPartidasYCommodities.resx">
+      <DependentUpon>frmHilaPartidasYCommodities.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIngresoStock.resx">
+      <DependentUpon>frmIngresoStock.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAltaMovimiento.resx">
+      <DependentUpon>frmAltaMovimiento.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAltaEntrMatPrim.resx">
+      <DependentUpon>frmAltaEntrMatPrim.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAltaSaliMatPrim.resx">
+      <DependentUpon>frmAltaSaliMatPrim.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmListadoMovimientos.resx">
+      <DependentUpon>frmListadoMovimientos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmObtieneObservacion.resx">
+      <DependentUpon>frmObtieneObservacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRepoMantActivDiaria.resx">
+      <DependentUpon>frmRepoMantActivDiaria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRepoRevisarActividadMant.resx">
+      <DependentUpon>frmRepoRevisarActividadMant.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHilaRepoDiscontinuos.resx">
+      <DependentUpon>frmHilaRepoDiscontinuos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmImpresorEtiquetas.resx">
+      <DependentUpon>frmImpresorEtiquetas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHilaRepoIngyConsu.resx">
+      <DependentUpon>frmHilaRepoIngyConsu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRepoCompStock.resx">
+      <DependentUpon>frmRepoCompStock.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHilaRemitoConsumo.resx">
+      <DependentUpon>frmHilaRemitoConsumo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHilaEditaMov.resx">
+      <DependentUpon>frmHilaEditaMov.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHilaRepoMovimHilados.resx">
+      <DependentUpon>frmHilaRepoMovimHilados.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHilaABMPartidas.resx">
+      <DependentUpon>frmHilaABMPartidas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHilaABMHilados.resx">
+      <DependentUpon>frmHilaABMHilados.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmABMUsuariosTablet.resx">
+      <DependentUpon>frmABMUsuariosTablet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHilaRemitoEgreso.resx">
+      <DependentUpon>frmHilaRemitoEgreso.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRepoCostoArticulos_3.resx">
+      <DependentUpon>frmRepoCostoArticulos_3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRepoPlanMantenimiento.resx">
+      <DependentUpon>frmRepoPlanMantenimiento.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmABMCC.resx">
+      <DependentUpon>frmABMCC.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmABMPlanMantenimiento.resx">
+      <DependentUpon>frmABMPlanMantenimiento.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmABMMaquinas.resx">
+      <DependentUpon>frmABMMaquinas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmABMRecursosTareas.resx">
+      <DependentUpon>frmABMRecursosTareas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmABMTareas.resx">
+      <DependentUpon>frmABMTareas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmABMSectores.resx">
+      <DependentUpon>frmABMSectores.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRepoCC.resx">
+      <DependentUpon>frmRepoCC.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmArtProdElegirPlanilla.resx">
+      <DependentUpon>frmArtProdElegirPlanilla.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOpcionesdeImpresion.resx">
+      <DependentUpon>frmOpcionesdeImpresion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRepoMatPrimaStock.resx">
+      <DependentUpon>frmRepoMatPrimaStock.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPosponerActividades.resx">
+      <DependentUpon>frmPosponerActividades.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHilaRemitoIngreso.resx">
+      <DependentUpon>frmHilaRemitoIngreso.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBorrarABMIngresodeHilados.resx">
+      <DependentUpon>frmBorrarABMIngresodeHilados.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmABMComposCostos.resx">
+      <DependentUpon>frmABMComposCostos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmABMHiladoInterno.resx">
+      <DependentUpon>frmABMHiladoInterno.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmArtProdAccABM.resx">
+      <DependentUpon>frmArtProdAccABM.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCambioContraseña.resx">
+      <DependentUpon>frmCambioContraseña.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmArtProdHistorial.resx">
+      <DependentUpon>frmArtProdHistorial.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmArtProdListado.resx">
+      <DependentUpon>frmArtProdListado.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmArtProdABM.resx">
+      <DependentUpon>frmArtProdABM.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmABMMateriaPrima.resx">
+      <DependentUpon>frmABMMateriaPrima.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConfigHilamar.resx">
+      <DependentUpon>frmConfigHilamar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCostosConfigParametros.resx">
+      <DependentUpon>frmCostosConfigParametros.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrincipal.resx">
+      <DependentUpon>frmPrincipal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBorrarRepoHiladoIngRepoTotales.resx">
+      <DependentUpon>frmBorrarRepoHiladoIngRepoTotales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCambioUsuario.resx">
+      <DependentUpon>frmCambioUsuario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBorrarRepoHiladoIngMovimientos.resx">
+      <DependentUpon>frmBorrarRepoHiladoIngMovimientos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmABMTextiSobranteHilado.resx">
+      <DependentUpon>frmABMTextiSobranteHilado.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmABMOPs.resx">
+      <DependentUpon>frmABMOPs.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRepoHiladoTextiSobra.resx">
+      <DependentUpon>frmRepoHiladoTextiSobra.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRepoHiladoTextiStock.resx">
+      <DependentUpon>frmRepoHiladoTextiStock.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAdminOPs.resx">
+      <DependentUpon>frmAdminOPs.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogueo.resx">
+      <DependentUpon>frmLogueo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProgreso.resx">
+      <DependentUpon>frmProgreso.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRepoMovimientos.resx">
+      <DependentUpon>frmRepoMovimientos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmABMSimple.resx">
+      <DependentUpon>frmABMSimple.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmListado.resx">
+      <DependentUpon>frmListado.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHilaRepoHiladosStock.resx">
+      <DependentUpon>frmHilaRepoHiladosStock.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCostosReporte.resx">
+      <DependentUpon>frmCostosReporte.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="mslogo_192px.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

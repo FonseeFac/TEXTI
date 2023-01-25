@@ -1,0 +1,5 @@
+Con Red
+Ancho:10
+Alto:8
+MargenIzq:2
+MargenSup:4

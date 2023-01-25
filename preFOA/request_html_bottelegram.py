@@ -75,7 +75,7 @@ def formatear_datos(respuesta_txt):
     stream_datos = json.loads(stream_datos)
 
     # Guardo la respuesta en un archivo (ESCRITORIO/PruebPython.txt)
-    stream_archivo = open(".\\FOA.txt", "a")
+    stream_archivo = open(".\\FOA.txt", "w")
 
     if stream_datos["result"] == "":
         exit("No existe")

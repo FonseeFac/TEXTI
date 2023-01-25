@@ -1,5 +1,7 @@
 ﻿Imports System.IO
 Imports System
+Imports System.Data.SqlClient
+
 
 Public Class FUA
     Dim path_Imagen, update_id As String
@@ -26,6 +28,7 @@ Public Class FUA
         If state Then
             load_dgv_desde_archivo()
             existe_imagen()
+            
         End If
     End Sub
 
@@ -57,9 +60,6 @@ Public Class FUA
             MsgBox("No se encuentra la ruta", 0, "FUA ERROR")
 
         End Try
-        
-
-
 
     End Sub
 
@@ -92,7 +92,7 @@ Public Class FUA
             ImagenArchivo.SizeMode = PictureBoxSizeMode.StretchImage
             ImagenArchivo.Load()
         End If
-
+        
     End Sub
 
     Private Sub cargarObs()
@@ -105,15 +105,17 @@ Public Class FUA
 
     Private Sub Ejecutar_Click(sender As Object, e As EventArgs) Handles Ejecutar.Click
         dgvFOA.Rows.Clear()
+
         state = False
         exec_script()
         If state = True Then
             FECHA_ACTUAL = Format(Now, "yyyy-MM-dd")
-
-
             If state Then
                 load_dgv_desde_archivo()
                 existe_imagen()
+
+                dgvFOA.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.None
+
             Else
                 MsgBox("No cargo los formularios correctamente")
             End If
@@ -140,4 +142,38 @@ Public Class FUA
     End Sub
 
     
+    Private Sub btnExportar_Click(sender As Object, e As EventArgs) Handles btnExportar.Click
+        Dim contador As Integer
+        Dim Reader As SqlDataReader
+        Dim Command As SqlCommand
+        Dim sStr As String
+        Dim conexion As SqlConnection
+
+        Dim ctrl As Integer
+
+        sStr = "SELECT * FROM FUARegistros WHERE id = 1614"
+        conexion = conectar_apptexti()
+        Command = New SqlCommand(sStr, conexion)
+        Reader = Command.ExecuteReader
+        If Reader.Read Then
+            If Reader.HasRows Then
+                contador = Reader.Item("Eliminado")
+            End If
+        End If
+        cerrar_conexiontexti(conexion)
+        ctrl = MsgBox("Exportar FUA?", 1, "FUA")
+        If ctrl = 1 Then
+            MsgBox("Elegiste no")
+        Else
+            MsgBox("Elegiste si")
+        End If
+        While contador < dgvFOA.Rows.Count
+            sStr = "INSERT INTO FUARegistros(id,Fecha,NCSector,NCLegajo,NCTexto,AnalisisLegajo,DisposicionTexto,AccionTexto,Eliminado,Auditoria,LegajoUsuario,NCSectorLaboro,AltaLegajo,AltaAuditoria,AltaSectorLaboro)"
+            sStr += " VALUES(" + +",'" + +"','" + +"','" + "','" + +"','" + +"','" + +"','" + +"','" + +"','" + + _
+                    "','" + +"','" + +"','" + +"','" + +"','" + "')"
+
+
+
+        End While
+    End Sub
 End Class

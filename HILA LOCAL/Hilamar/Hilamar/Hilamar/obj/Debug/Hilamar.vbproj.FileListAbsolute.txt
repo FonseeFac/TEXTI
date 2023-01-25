@@ -1,0 +1,780 @@
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\bin\Debug\Hilamar.exe.config
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMSimple.resources
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmListado.resources
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmPrincipal.resources
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.Resources.resources
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.vbproj.GenerateResource.Cache
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\bin\Debug\Hilamar.exe
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\bin\Debug\Hilamar.pdb
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\bin\Debug\Hilamar.xml
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.exe
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.xml
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.pdb
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMMovimientos.resources
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoMovimientos.resources
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\bin\Debug\Hilamar.exe.config
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.exe
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.xml
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.pdb
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\bin\Debug\Hilamar.exe
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\bin\Debug\Hilamar.pdb
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\bin\Debug\Hilamar.xml
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoMovimientos.resources
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMMovimientos.resources
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMSimple.resources
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmListado.resources
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmPrincipal.resources
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.Resources.resources
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.vbproj.GenerateResource.Cache
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmLogueo.resources
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.EnhancedPrintPreviewDialog.resources
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmAdminOPs.resources
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMOPs.resources
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmProgreso.resources
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoHiladoTextiStock.resources
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoHiladoTextiSobra.resources
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMTextiSobranteHilado.resources
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmCambioUsuario.resources
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmConfigHilamar.resources
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmCostosConfigParametros.resources
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMMateriaPrima.resources
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMComposCostos.resources
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMHiladoInterno.resources
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmCostosReporte.resources
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.vbprojResolveAssemblyReference.cache
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmArtProdABM.resources
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmArtProdListado.resources
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmArtProdHistorial.resources
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmCambioContraseña.resources
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmArtProdAccABM.resources
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmTextiRepoPedidosManuales.resources
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmTextiSelClienteTransporte.resources
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmTextiABMPedidoManual.resources
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmTextiPedManABMArticulos.resources
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\bin\Debug\Hilamar.exe.config
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.exe
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.xml
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.pdb
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\bin\Debug\Hilamar.exe
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\bin\Debug\Hilamar.pdb
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\bin\Debug\Hilamar.xml
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.EnhancedPrintPreviewDialog.resources
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmTextiPedManABMArticulos.resources
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMComposCostos.resources
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMHiladoInterno.resources
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmTextiRepoPedidosManuales.resources
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmTextiSelClienteTransporte.resources
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmTextiABMPedidoManual.resources
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmArtProdAccABM.resources
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmCambioContraseña.resources
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmArtProdHistorial.resources
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmArtProdListado.resources
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmArtProdABM.resources
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMMateriaPrima.resources
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmConfigHilamar.resources
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmCostosConfigParametros.resources
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmPrincipal.resources
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmCambioUsuario.resources
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMTextiSobranteHilado.resources
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMOPs.resources
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoHiladoTextiSobra.resources
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoHiladoTextiStock.resources
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmAdminOPs.resources
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmLogueo.resources
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmProgreso.resources
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoMovimientos.resources
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMMovimientos.resources
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMSimple.resources
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmListado.resources
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmCostosReporte.resources
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.Resources.resources
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.vbproj.GenerateResource.Cache
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoMatPrimaStock.resources
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmOpcionesdeImpresion.resources
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmArtProdElegirPlanilla.resources
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.vbprojResolveAssemblyReference.cache
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.EnhancedPrintPreviewDialog.resources
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmArtProdElegirPlanilla.resources
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmOpcionesdeImpresion.resources
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoMatPrimaStock.resources
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmTextiPedManABMArticulos.resources
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMComposCostos.resources
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMHiladoInterno.resources
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmTextiRepoPedidosManuales.resources
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmTextiSelClienteTransporte.resources
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmTextiABMPedidoManual.resources
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmArtProdAccABM.resources
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmCambioContraseña.resources
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmArtProdHistorial.resources
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmArtProdListado.resources
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmArtProdABM.resources
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMMateriaPrima.resources
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmConfigHilamar.resources
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmCostosConfigParametros.resources
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmCambioUsuario.resources
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMTextiSobranteHilado.resources
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMOPs.resources
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoHiladoTextiSobra.resources
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoHiladoTextiStock.resources
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmAdminOPs.resources
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmLogueo.resources
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmProgreso.resources
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmCostosReporte.resources
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\bin\Debug\BarcodeLib.dll
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmDiarioImpresion.resources
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMRemNueLista.resources
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmCOT.resources
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoOrigYApldeFondos.resources
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\bin\Debug\EPPlus.dll
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\bin\Debug\EPPlus.xml
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMMaquinas.resources
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMSectores.resources
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMRecursosTareas.resources
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMTareas.resources
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\bin\Debug\BarcodeLib.dll
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\bin\Debug\EPPlus.dll
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\bin\Debug\EPPlus.xml
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMMaquinas.resources
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMRecursosTareas.resources
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMTareas.resources
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMSectores.resources
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoOrigYApldeFondos.resources
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmCOT.resources
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMRemNueLista.resources
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmDiarioImpresion.resources
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMCC.resources
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoCC.resources
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMCC.resources
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoCC.resources
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMPlanMantenimiento.resources
+C:\Documentos\ProyectosVisual\Hilamar\Hilamar\Hilamar\bin\Debug\Hilamar.exe.config
+C:\Documentos\ProyectosVisual\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.exe
+C:\Documentos\ProyectosVisual\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.xml
+C:\Documentos\ProyectosVisual\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.pdb
+C:\Documentos\ProyectosVisual\Hilamar\Hilamar\Hilamar\bin\Debug\Hilamar.exe
+C:\Documentos\ProyectosVisual\Hilamar\Hilamar\Hilamar\bin\Debug\Hilamar.pdb
+C:\Documentos\ProyectosVisual\Hilamar\Hilamar\Hilamar\bin\Debug\Hilamar.xml
+C:\Documentos\ProyectosVisual\Hilamar\Hilamar\Hilamar\bin\Debug\BarcodeLib.dll
+C:\Documentos\ProyectosVisual\Hilamar\Hilamar\Hilamar\bin\Debug\EPPlus.dll
+C:\Documentos\ProyectosVisual\Hilamar\Hilamar\Hilamar\bin\Debug\EPPlus.xml
+C:\Documentos\ProyectosVisual\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.vbprojResolveAssemblyReference.cache
+C:\Documentos\ProyectosVisual\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.EnhancedPrintPreviewDialog.resources
+C:\Documentos\ProyectosVisual\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMCC.resources
+C:\Documentos\ProyectosVisual\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMPlanMantenimiento.resources
+C:\Documentos\ProyectosVisual\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMMaquinas.resources
+C:\Documentos\ProyectosVisual\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMRecursosTareas.resources
+C:\Documentos\ProyectosVisual\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMTareas.resources
+C:\Documentos\ProyectosVisual\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMSectores.resources
+C:\Documentos\ProyectosVisual\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoCC.resources
+C:\Documentos\ProyectosVisual\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoOrigYApldeFondos.resources
+C:\Documentos\ProyectosVisual\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmCOT.resources
+C:\Documentos\ProyectosVisual\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMRemNueLista.resources
+C:\Documentos\ProyectosVisual\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmArtProdElegirPlanilla.resources
+C:\Documentos\ProyectosVisual\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmDiarioImpresion.resources
+C:\Documentos\ProyectosVisual\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmOpcionesdeImpresion.resources
+C:\Documentos\ProyectosVisual\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoMatPrimaStock.resources
+C:\Documentos\ProyectosVisual\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmTextiPedManABMArticulos.resources
+C:\Documentos\ProyectosVisual\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMIngresodeHilados.resources
+C:\Documentos\ProyectosVisual\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMComposCostos.resources
+C:\Documentos\ProyectosVisual\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMHiladoInterno.resources
+C:\Documentos\ProyectosVisual\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmTextiRepoPedidosManuales.resources
+C:\Documentos\ProyectosVisual\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmTextiSelClienteTransporte.resources
+C:\Documentos\ProyectosVisual\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmTextiABMPedidoManual.resources
+C:\Documentos\ProyectosVisual\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmArtProdAccABM.resources
+C:\Documentos\ProyectosVisual\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmCambioContraseña.resources
+C:\Documentos\ProyectosVisual\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmArtProdHistorial.resources
+C:\Documentos\ProyectosVisual\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmArtProdListado.resources
+C:\Documentos\ProyectosVisual\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmArtProdABM.resources
+C:\Documentos\ProyectosVisual\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMMateriaPrima.resources
+C:\Documentos\ProyectosVisual\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmConfigHilamar.resources
+C:\Documentos\ProyectosVisual\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmCostosConfigParametros.resources
+C:\Documentos\ProyectosVisual\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmPrincipal.resources
+C:\Documentos\ProyectosVisual\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoHiladoIngRepoTotales.resources
+C:\Documentos\ProyectosVisual\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmCambioUsuario.resources
+C:\Documentos\ProyectosVisual\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoHiladoIngMovimientos.resources
+C:\Documentos\ProyectosVisual\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMTextiSobranteHilado.resources
+C:\Documentos\ProyectosVisual\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMOPs.resources
+C:\Documentos\ProyectosVisual\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoHiladoTextiSobra.resources
+C:\Documentos\ProyectosVisual\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoHiladoTextiStock.resources
+C:\Documentos\ProyectosVisual\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmAdminOPs.resources
+C:\Documentos\ProyectosVisual\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmLogueo.resources
+C:\Documentos\ProyectosVisual\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmProgreso.resources
+C:\Documentos\ProyectosVisual\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoMovimientos.resources
+C:\Documentos\ProyectosVisual\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMMovimientos.resources
+C:\Documentos\ProyectosVisual\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMSimple.resources
+C:\Documentos\ProyectosVisual\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmListado.resources
+C:\Documentos\ProyectosVisual\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoHiladosStock.resources
+C:\Documentos\ProyectosVisual\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmCostosReporte.resources
+C:\Documentos\ProyectosVisual\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.Resources.resources
+C:\Documentos\ProyectosVisual\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.vbproj.GenerateResource.Cache
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMPlanMantenimiento.resources
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoPlanMantenimiento.resources
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmPosponerActividades.resources
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMUsuariosTablet.resources
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaABMHilados.resources
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaABMPartidas.resources
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaRemitoEgreso.resources
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.vbprojResolveAssemblyReference.cache
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaRemitoIngreso.resources
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaRepoMovimHilados.resources
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmBorrarABMIngresodeHilados.resources
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmBorrarRepoHiladoIngRepoTotales.resources
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmBorrarRepoHiladoIngMovimientos.resources
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaEditaMov.resources
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaRepoHiladosStock.resources
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaRemitoConsumo.resources
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoCompStock.resources
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaRepoIngyConsu.resources
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoCostoArticulos_3.resources
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMPreciosPorLote.resources
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmImpresorEtiquetas.resources
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmImpresorEtiquetas.resources
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMPreciosPorLote.resources
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaRepoIngyConsu.resources
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoCompStock.resources
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaRemitoConsumo.resources
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaEditaMov.resources
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaRepoMovimHilados.resources
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaABMPartidas.resources
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaABMHilados.resources
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMUsuariosTablet.resources
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaRemitoEgreso.resources
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoCostoArticulos_3.resources
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoPlanMantenimiento.resources
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmPosponerActividades.resources
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaRemitoIngreso.resources
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmBorrarABMIngresodeHilados.resources
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmBorrarRepoHiladoIngRepoTotales.resources
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmBorrarRepoHiladoIngMovimientos.resources
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaRepoHiladosStock.resources
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaRepoDiscontinuos.resources
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoRevisarActividadMant.resources
+\\192.168.0.91\c\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoMantActivDiaria.resources
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoMantActivDiaria.resources
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoRevisarActividadMant.resources
+C:\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaRepoDiscontinuos.resources
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\bin\Debug\BarcodeLib.dll
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\bin\Debug\EPPlus.dll
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\bin\Debug\EPPlus.xml
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoMantActivDiaria.resources
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoRevisarActividadMant.resources
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaRepoDiscontinuos.resources
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmImpresorEtiquetas.resources
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMPreciosPorLote.resources
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaRepoIngyConsu.resources
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoCompStock.resources
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaRemitoConsumo.resources
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaEditaMov.resources
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaRepoMovimHilados.resources
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaABMPartidas.resources
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaABMHilados.resources
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMUsuariosTablet.resources
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaRemitoEgreso.resources
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoCostoArticulos_3.resources
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoPlanMantenimiento.resources
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMCC.resources
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMPlanMantenimiento.resources
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMMaquinas.resources
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMRecursosTareas.resources
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMTareas.resources
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMSectores.resources
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoCC.resources
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoOrigYApldeFondos.resources
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmCOT.resources
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMRemNueLista.resources
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmArtProdElegirPlanilla.resources
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmDiarioImpresion.resources
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmOpcionesdeImpresion.resources
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoMatPrimaStock.resources
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmPosponerActividades.resources
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaRemitoIngreso.resources
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmBorrarABMIngresodeHilados.resources
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmBorrarRepoHiladoIngRepoTotales.resources
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmBorrarRepoHiladoIngMovimientos.resources
+\\computos-linux\C\Datos\Programación\Proyectos Isra\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaRepoHiladosStock.resources
+C:\Users\computos2\Desktop\apps\modificados\Hilamar\Hilamar\Hilamar\bin\Debug\Hilamar.exe.config
+C:\Users\computos2\Desktop\apps\modificados\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.exe
+C:\Users\computos2\Desktop\apps\modificados\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.xml
+C:\Users\computos2\Desktop\apps\modificados\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.pdb
+C:\Users\computos2\Desktop\apps\modificados\Hilamar\Hilamar\Hilamar\bin\Debug\Hilamar.exe
+C:\Users\computos2\Desktop\apps\modificados\Hilamar\Hilamar\Hilamar\bin\Debug\Hilamar.pdb
+C:\Users\computos2\Desktop\apps\modificados\Hilamar\Hilamar\Hilamar\bin\Debug\Hilamar.xml
+C:\Users\computos2\Desktop\apps\modificados\Hilamar\Hilamar\Hilamar\bin\Debug\BarcodeLib.dll
+C:\Users\computos2\Desktop\apps\modificados\Hilamar\Hilamar\Hilamar\bin\Debug\EPPlus.dll
+C:\Users\computos2\Desktop\apps\modificados\Hilamar\Hilamar\Hilamar\bin\Debug\EPPlus.xml
+C:\Users\computos2\Desktop\apps\modificados\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.vbprojResolveAssemblyReference.cache
+C:\Users\computos2\Desktop\apps\modificados\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.EnhancedPrintPreviewDialog.resources
+C:\Users\computos2\Desktop\apps\modificados\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmAltaEntrMatPrim.resources
+C:\Users\computos2\Desktop\apps\modificados\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmAltaSaliMatPrim.resources
+C:\Users\computos2\Desktop\apps\modificados\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmObtieneObservacion.resources
+C:\Users\computos2\Desktop\apps\modificados\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoMantActivDiaria.resources
+C:\Users\computos2\Desktop\apps\modificados\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoRevisarActividadMant.resources
+C:\Users\computos2\Desktop\apps\modificados\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaRepoDiscontinuos.resources
+C:\Users\computos2\Desktop\apps\modificados\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmImpresorEtiquetas.resources
+C:\Users\computos2\Desktop\apps\modificados\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaRepoIngyConsu.resources
+C:\Users\computos2\Desktop\apps\modificados\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoCompStock.resources
+C:\Users\computos2\Desktop\apps\modificados\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaRemitoConsumo.resources
+C:\Users\computos2\Desktop\apps\modificados\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaEditaMov.resources
+C:\Users\computos2\Desktop\apps\modificados\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaRepoMovimHilados.resources
+C:\Users\computos2\Desktop\apps\modificados\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaABMPartidas.resources
+C:\Users\computos2\Desktop\apps\modificados\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaABMHilados.resources
+C:\Users\computos2\Desktop\apps\modificados\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMUsuariosTablet.resources
+C:\Users\computos2\Desktop\apps\modificados\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaRemitoEgreso.resources
+C:\Users\computos2\Desktop\apps\modificados\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoCostoArticulos_3.resources
+C:\Users\computos2\Desktop\apps\modificados\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoPlanMantenimiento.resources
+C:\Users\computos2\Desktop\apps\modificados\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMCC.resources
+C:\Users\computos2\Desktop\apps\modificados\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMPlanMantenimiento.resources
+C:\Users\computos2\Desktop\apps\modificados\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMMaquinas.resources
+C:\Users\computos2\Desktop\apps\modificados\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMRecursosTareas.resources
+C:\Users\computos2\Desktop\apps\modificados\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMTareas.resources
+C:\Users\computos2\Desktop\apps\modificados\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMSectores.resources
+C:\Users\computos2\Desktop\apps\modificados\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoCC.resources
+C:\Users\computos2\Desktop\apps\modificados\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmArtProdElegirPlanilla.resources
+C:\Users\computos2\Desktop\apps\modificados\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmOpcionesdeImpresion.resources
+C:\Users\computos2\Desktop\apps\modificados\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoMatPrimaStock.resources
+C:\Users\computos2\Desktop\apps\modificados\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmPosponerActividades.resources
+C:\Users\computos2\Desktop\apps\modificados\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaRemitoIngreso.resources
+C:\Users\computos2\Desktop\apps\modificados\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmBorrarABMIngresodeHilados.resources
+C:\Users\computos2\Desktop\apps\modificados\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMComposCostos.resources
+C:\Users\computos2\Desktop\apps\modificados\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMHiladoInterno.resources
+C:\Users\computos2\Desktop\apps\modificados\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmArtProdAccABM.resources
+C:\Users\computos2\Desktop\apps\modificados\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmCambioContraseña.resources
+C:\Users\computos2\Desktop\apps\modificados\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmArtProdHistorial.resources
+C:\Users\computos2\Desktop\apps\modificados\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmArtProdListado.resources
+C:\Users\computos2\Desktop\apps\modificados\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmArtProdABM.resources
+C:\Users\computos2\Desktop\apps\modificados\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMMateriaPrima.resources
+C:\Users\computos2\Desktop\apps\modificados\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmConfigHilamar.resources
+C:\Users\computos2\Desktop\apps\modificados\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmCostosConfigParametros.resources
+C:\Users\computos2\Desktop\apps\modificados\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmPrincipal.resources
+C:\Users\computos2\Desktop\apps\modificados\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmBorrarRepoHiladoIngRepoTotales.resources
+C:\Users\computos2\Desktop\apps\modificados\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmCambioUsuario.resources
+C:\Users\computos2\Desktop\apps\modificados\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmBorrarRepoHiladoIngMovimientos.resources
+C:\Users\computos2\Desktop\apps\modificados\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMTextiSobranteHilado.resources
+C:\Users\computos2\Desktop\apps\modificados\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMOPs.resources
+C:\Users\computos2\Desktop\apps\modificados\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoHiladoTextiSobra.resources
+C:\Users\computos2\Desktop\apps\modificados\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoHiladoTextiStock.resources
+C:\Users\computos2\Desktop\apps\modificados\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmAdminOPs.resources
+C:\Users\computos2\Desktop\apps\modificados\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmLogueo.resources
+C:\Users\computos2\Desktop\apps\modificados\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmProgreso.resources
+C:\Users\computos2\Desktop\apps\modificados\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoMovimientos.resources
+C:\Users\computos2\Desktop\apps\modificados\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMMovimientos.resources
+C:\Users\computos2\Desktop\apps\modificados\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMSimple.resources
+C:\Users\computos2\Desktop\apps\modificados\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmListado.resources
+C:\Users\computos2\Desktop\apps\modificados\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaRepoHiladosStock.resources
+C:\Users\computos2\Desktop\apps\modificados\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmCostosReporte.resources
+C:\Users\computos2\Desktop\apps\modificados\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.Resources.resources
+C:\Users\computos2\Desktop\apps\modificados\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.vbproj.GenerateResource.Cache
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.EnhancedPrintPreviewDialog.resources
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmAltaEntrMatPrim.resources
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmAltaSaliMatPrim.resources
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmObtieneObservacion.resources
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoMantActivDiaria.resources
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoRevisarActividadMant.resources
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaRepoDiscontinuos.resources
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmImpresorEtiquetas.resources
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaRepoIngyConsu.resources
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoCompStock.resources
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaRemitoConsumo.resources
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaEditaMov.resources
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaRepoMovimHilados.resources
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaABMPartidas.resources
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaABMHilados.resources
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMUsuariosTablet.resources
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaRemitoEgreso.resources
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoCostoArticulos_3.resources
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoPlanMantenimiento.resources
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMCC.resources
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMPlanMantenimiento.resources
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMMaquinas.resources
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMRecursosTareas.resources
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMTareas.resources
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMSectores.resources
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoCC.resources
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmArtProdElegirPlanilla.resources
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmOpcionesdeImpresion.resources
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoMatPrimaStock.resources
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmPosponerActividades.resources
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaRemitoIngreso.resources
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmBorrarABMIngresodeHilados.resources
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMComposCostos.resources
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMHiladoInterno.resources
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmArtProdAccABM.resources
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmCambioContraseña.resources
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmArtProdHistorial.resources
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmArtProdListado.resources
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmArtProdABM.resources
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMMateriaPrima.resources
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmConfigHilamar.resources
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmCostosConfigParametros.resources
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmPrincipal.resources
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmBorrarRepoHiladoIngRepoTotales.resources
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmCambioUsuario.resources
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmBorrarRepoHiladoIngMovimientos.resources
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMTextiSobranteHilado.resources
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMOPs.resources
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoHiladoTextiSobra.resources
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoHiladoTextiStock.resources
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmAdminOPs.resources
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmLogueo.resources
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmProgreso.resources
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoMovimientos.resources
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMSimple.resources
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmListado.resources
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaRepoHiladosStock.resources
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmCostosReporte.resources
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.Resources.resources
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.vbproj.GenerateResource.Cache
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\bin\Debug\Hilamar.exe.config
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.exe
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.xml
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.pdb
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\bin\Debug\Hilamar.exe
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\bin\Debug\Hilamar.pdb
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\bin\Debug\Hilamar.xml
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\bin\Debug\BarcodeLib.dll
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\bin\Debug\EPPlus.dll
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\bin\Debug\EPPlus.xml
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.vbprojResolveAssemblyReference.cache
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmAltaMovimiento.resources
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMArticulos.resources
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMArticulosCategorias.resources
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMUnidadesMedidas.resources
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmCrearArticulo.resources
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmIngresoStock.resources
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmListadoMovimientos.resources
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.vbprojResolveAssemblyReference.cache
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.EnhancedPrintPreviewDialog.resources
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMArticulos.resources
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMArticulosCategorias.resources
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMProveedores_Articulo.resources
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMUnidadesMedidas.resources
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmCrearArticulo.resources
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmIngresoStock.resources
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmAltaMovimiento.resources
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmAltaEntrMatPrim.resources
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmAltaSaliMatPrim.resources
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmListadoMovimientos.resources
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmObtieneObservacion.resources
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoMantActivDiaria.resources
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoRevisarActividadMant.resources
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaRepoDiscontinuos.resources
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmImpresorEtiquetas.resources
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaRepoIngyConsu.resources
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoCompStock.resources
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaRemitoConsumo.resources
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaEditaMov.resources
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaRepoMovimHilados.resources
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaABMPartidas.resources
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaABMHilados.resources
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMUsuariosTablet.resources
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaRemitoEgreso.resources
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoCostoArticulos_3.resources
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoPlanMantenimiento.resources
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMCC.resources
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMPlanMantenimiento.resources
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMMaquinas.resources
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMRecursosTareas.resources
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMTareas.resources
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMSectores.resources
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoCC.resources
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmArtProdElegirPlanilla.resources
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmOpcionesdeImpresion.resources
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoMatPrimaStock.resources
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmPosponerActividades.resources
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaRemitoIngreso.resources
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmBorrarABMIngresodeHilados.resources
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMComposCostos.resources
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMHiladoInterno.resources
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmArtProdAccABM.resources
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmCambioContraseña.resources
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmArtProdHistorial.resources
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmArtProdListado.resources
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmArtProdABM.resources
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMMateriaPrima.resources
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmConfigHilamar.resources
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmCostosConfigParametros.resources
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmPrincipal.resources
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmBorrarRepoHiladoIngRepoTotales.resources
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmCambioUsuario.resources
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmBorrarRepoHiladoIngMovimientos.resources
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMTextiSobranteHilado.resources
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMOPs.resources
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoHiladoTextiSobra.resources
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoHiladoTextiStock.resources
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmAdminOPs.resources
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmLogueo.resources
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmProgreso.resources
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoMovimientos.resources
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMSimple.resources
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmListado.resources
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaRepoHiladosStock.resources
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmCostosReporte.resources
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.Resources.resources
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.vbproj.GenerateResource.Cache
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\bin\Debug\Hilamar.exe.config
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\bin\Debug\Hilamar.exe
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\bin\Debug\Hilamar.pdb
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\bin\Debug\Hilamar.xml
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\bin\Debug\BarcodeLib.dll
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\bin\Debug\EPPlus.dll
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\bin\Debug\EPPlus.xml
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.exe
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.xml
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.pdb
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.EnhancedPrintPreviewDialog.resources
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMArticulos.resources
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMArticulosCategorias.resources
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMProveedores_Articulo.resources
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMUnidadesMedidas.resources
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmCrearArticulo.resources
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmIngresoStock.resources
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmAltaMovimiento.resources
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmAltaEntrMatPrim.resources
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmAltaSaliMatPrim.resources
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmListadoMovimientos.resources
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmObtieneObservacion.resources
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoMantActivDiaria.resources
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoRevisarActividadMant.resources
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaRepoDiscontinuos.resources
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmImpresorEtiquetas.resources
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaRepoIngyConsu.resources
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoCompStock.resources
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaRemitoConsumo.resources
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaEditaMov.resources
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaRepoMovimHilados.resources
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaABMPartidas.resources
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaABMHilados.resources
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMUsuariosTablet.resources
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaRemitoEgreso.resources
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoCostoArticulos_3.resources
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoPlanMantenimiento.resources
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMCC.resources
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMPlanMantenimiento.resources
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMMaquinas.resources
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMRecursosTareas.resources
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMTareas.resources
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMSectores.resources
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoCC.resources
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmArtProdElegirPlanilla.resources
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmOpcionesdeImpresion.resources
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoMatPrimaStock.resources
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmPosponerActividades.resources
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaRemitoIngreso.resources
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmBorrarABMIngresodeHilados.resources
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMComposCostos.resources
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMHiladoInterno.resources
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmArtProdAccABM.resources
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmCambioContraseña.resources
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmArtProdHistorial.resources
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmArtProdListado.resources
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmArtProdABM.resources
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMMateriaPrima.resources
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmConfigHilamar.resources
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmCostosConfigParametros.resources
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmPrincipal.resources
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmBorrarRepoHiladoIngRepoTotales.resources
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmCambioUsuario.resources
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmBorrarRepoHiladoIngMovimientos.resources
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMTextiSobranteHilado.resources
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMOPs.resources
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoHiladoTextiSobra.resources
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoHiladoTextiStock.resources
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmAdminOPs.resources
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmLogueo.resources
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmProgreso.resources
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoMovimientos.resources
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMSimple.resources
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmListado.resources
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaRepoHiladosStock.resources
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmCostosReporte.resources
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.Resources.resources
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.vbproj.GenerateResource.Cache
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\bin\Debug\Hilamar.exe.config
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\bin\Debug\Hilamar.exe
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\bin\Debug\Hilamar.pdb
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\bin\Debug\Hilamar.xml
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\bin\Debug\BarcodeLib.dll
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\bin\Debug\EPPlus.dll
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\bin\Debug\EPPlus.xml
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.exe
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.xml
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.pdb
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.vbprojResolveAssemblyReference.cache
+\\computos-linux\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMProveedores_Articulo.resources
+\\computos-linux\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaPartidasYCommodities.resources
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaPartidasYCommodities.resources
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmListadoColoresIndex.resources
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMColorIndex.resources
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMColorIndex.resources
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmListadoColoresIndex.resources
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaPartidasYCommodities.resources
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMColorIndex.resources
+C:\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmListadoColoresIndex.resources
+\\COMPUTOS-LINUX\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmAltaReserva.resources
+\\computos-linux\C\Textilana Proyectos\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmAltaReserva.resources
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\bin\Debug\Hilamar.exe.config
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.exe
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.xml
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.pdb
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\bin\Debug\Hilamar.exe
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\bin\Debug\Hilamar.pdb
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\bin\Debug\Hilamar.xml
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\bin\Debug\BarcodeLib.dll
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\bin\Debug\EPPlus.dll
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\bin\Debug\EPPlus.xml
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.vbprojResolveAssemblyReference.cache
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.EnhancedPrintPreviewDialog.resources
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMArticulos.resources
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMArticulosCategorias.resources
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMColorIndex.resources
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmAltaReserva.resources
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmListadoColoresIndex.resources
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMProveedores_Articulo.resources
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMUnidadesMedidas.resources
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmCrearArticulo.resources
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaPartidasYCommodities.resources
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmIngresoStock.resources
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmAltaMovimiento.resources
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmAltaEntrMatPrim.resources
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmAltaSaliMatPrim.resources
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmListadoMovimientos.resources
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmObtieneObservacion.resources
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoMantActivDiaria.resources
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoRevisarActividadMant.resources
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaRepoDiscontinuos.resources
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmImpresorEtiquetas.resources
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaRepoIngyConsu.resources
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoCompStock.resources
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaRemitoConsumo.resources
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaEditaMov.resources
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaRepoMovimHilados.resources
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaABMPartidas.resources
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaABMHilados.resources
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMUsuariosTablet.resources
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaRemitoEgreso.resources
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoCostoArticulos_3.resources
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoPlanMantenimiento.resources
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMCC.resources
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMPlanMantenimiento.resources
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMMaquinas.resources
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMRecursosTareas.resources
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMTareas.resources
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMSectores.resources
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoCC.resources
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmArtProdElegirPlanilla.resources
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmOpcionesdeImpresion.resources
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoMatPrimaStock.resources
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmPosponerActividades.resources
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaRemitoIngreso.resources
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmBorrarABMIngresodeHilados.resources
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMComposCostos.resources
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMHiladoInterno.resources
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmArtProdAccABM.resources
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmCambioContraseña.resources
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmArtProdHistorial.resources
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmArtProdListado.resources
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmArtProdABM.resources
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMMateriaPrima.resources
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmConfigHilamar.resources
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmCostosConfigParametros.resources
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmPrincipal.resources
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmBorrarRepoHiladoIngRepoTotales.resources
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmCambioUsuario.resources
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmBorrarRepoHiladoIngMovimientos.resources
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMTextiSobranteHilado.resources
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMOPs.resources
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoHiladoTextiSobra.resources
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoHiladoTextiStock.resources
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmAdminOPs.resources
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmLogueo.resources
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmProgreso.resources
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoMovimientos.resources
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMSimple.resources
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmListado.resources
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaRepoHiladosStock.resources
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmCostosReporte.resources
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.Resources.resources
+C:\Users\computos2\Documents\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.vbproj.GenerateResource.Cache
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\bin\Debug\Hilamar.exe.config
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.exe
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.xml
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.pdb
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\bin\Debug\Hilamar.exe
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\bin\Debug\Hilamar.pdb
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\bin\Debug\Hilamar.xml
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\bin\Debug\BarcodeLib.dll
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\bin\Debug\EPPlus.dll
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\bin\Debug\EPPlus.xml
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.vbprojResolveAssemblyReference.cache
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.EnhancedPrintPreviewDialog.resources
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMArticulos.resources
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMArticulosCategorias.resources
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMColorIndex.resources
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmAltaReserva.resources
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmListadoColoresIndex.resources
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMProveedores_Articulo.resources
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMUnidadesMedidas.resources
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmCrearArticulo.resources
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaPartidasYCommodities.resources
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmIngresoStock.resources
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmAltaMovimiento.resources
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmAltaEntrMatPrim.resources
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmAltaSaliMatPrim.resources
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmListadoMovimientos.resources
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmObtieneObservacion.resources
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoMantActivDiaria.resources
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoRevisarActividadMant.resources
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaRepoDiscontinuos.resources
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmImpresorEtiquetas.resources
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaRepoIngyConsu.resources
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoCompStock.resources
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaRemitoConsumo.resources
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaEditaMov.resources
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaRepoMovimHilados.resources
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaABMPartidas.resources
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaABMHilados.resources
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMUsuariosTablet.resources
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaRemitoEgreso.resources
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoCostoArticulos_3.resources
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoPlanMantenimiento.resources
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMCC.resources
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMPlanMantenimiento.resources
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMMaquinas.resources
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMRecursosTareas.resources
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMTareas.resources
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMSectores.resources
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoCC.resources
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmArtProdElegirPlanilla.resources
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmOpcionesdeImpresion.resources
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoMatPrimaStock.resources
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmPosponerActividades.resources
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaRemitoIngreso.resources
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmBorrarABMIngresodeHilados.resources
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMComposCostos.resources
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMHiladoInterno.resources
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmArtProdAccABM.resources
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmCambioContraseña.resources
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmArtProdHistorial.resources
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmArtProdListado.resources
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmArtProdABM.resources
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMMateriaPrima.resources
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmConfigHilamar.resources
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmCostosConfigParametros.resources
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmPrincipal.resources
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmBorrarRepoHiladoIngRepoTotales.resources
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmCambioUsuario.resources
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmBorrarRepoHiladoIngMovimientos.resources
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMTextiSobranteHilado.resources
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMOPs.resources
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoHiladoTextiSobra.resources
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoHiladoTextiStock.resources
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmAdminOPs.resources
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmLogueo.resources
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmProgreso.resources
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmRepoMovimientos.resources
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmABMSimple.resources
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmListado.resources
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmHilaRepoHiladosStock.resources
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.frmCostosReporte.resources
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.Resources.resources
+C:\Users\computos2\Documents\RepositorioGit\HILA LOCAL\Hilamar\Hilamar\Hilamar\obj\Debug\Hilamar.vbproj.GenerateResource.Cache

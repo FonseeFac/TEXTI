@@ -1,0 +1,2 @@
+C:\Users\computos.MSCENTRAL\AppData\Local\Temporary Projects\WindowsApplication1\bin\Debug\WindowsApplication1.exe.config
+C:\Users\computos.MSCENTRAL\AppData\Local\Temporary Projects\WindowsApplication1\bin\Debug\Hilamar.exe.config
